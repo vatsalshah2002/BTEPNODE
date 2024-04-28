@@ -5,7 +5,7 @@ const app=express();
 
 app.use(express.json())
 app.use(cors({
-    origin:["https://btepnode.vercel.app"],
+    origin:["https://btepnode-vatsal-s-projects.vercel.app/"],
     methods:["POST","GET","UPDATE","DELETE"],
     credentials:true
 }))
